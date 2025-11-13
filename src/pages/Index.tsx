@@ -30,11 +30,12 @@ const Index = () => {
       <header className="fixed top-0 left-0 right-0 bg-white shadow-sm z-50">
         <div className="container mx-auto px-4 py-4">
           <nav className="flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <Icon name="Shield" size={24} className="text-white" />
-              </div>
-              <span className="text-xl font-bold text-secondary">ФинПотребСоюз</span>
+            <div className="flex items-center">
+              <img 
+                src="https://cdn.poehali.dev/files/f7f2c633-ef06-4906-a40c-dc3b9f565418.jpg" 
+                alt="ФинПотребСоюз" 
+                className="h-12"
+              />
             </div>
             <div className="hidden md:flex items-center gap-8">
               <button onClick={() => scrollToSection('hero')} className="text-sm font-medium text-secondary hover:text-primary transition-colors">
